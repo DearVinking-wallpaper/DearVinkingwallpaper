@@ -1,0 +1,43 @@
+/* DaTouWang URL: www.datouwang.com */
+body {
+  margin: 0;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  font-family: 'Nunito', 'sans-serif';
+}
+
+.inner {
+  background: #FF0099;
+  padding: 1em;
+  border-radius: 10px;
+  width: 400px;
+  clip-path: circle(10% at 90% 20%);
+  transition: all .5s ease-in-out;
+  cursor: pointer;
+}
+.inner:hover {
+  clip-path: circle(75%);
+  background: #00B6FF;
+}
+.inner h2 {
+  color: white;
+  margin: 0;
+}
+.inner p {
+  color: white;
+  font-size: 13px;
+}
+.inner span {
+  float: right;
+  color: white;
+  font-weight: bold;
+  transition: color .5s;
+  position: relative;
+  margin-right: 4%;
+  line-height:12px;
+  font-size:24px;
+}
+.inner:hover span {
+  color: rgba(255, 255, 255, 0);
+}
